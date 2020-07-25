@@ -167,9 +167,7 @@ a:hover {
   }
 }
 
-.comment {
-  color:#393939;
-}
+
 /*------------
 *contents area
 ------------*/
@@ -207,11 +205,6 @@ a:hover {
   border: solid 5px #BE5378;
 }
 
-.flex-col {
-  display: flex;
-  flex-direction: column;
-}
-
 .profile h2 {
   background-color: #BE5378;
 }
@@ -226,7 +219,8 @@ a:hover {
   font-size: 1.6rem;
   color:#503464;
   line-height: 4rem;
-  margin: 0 5%;
+  margin: 0 auto;
+  width:90%;
 }
 
 
@@ -238,7 +232,7 @@ a:hover {
 
 
 .items {
-  max-width: 80%;
+
 }
 
 .items li {
@@ -371,7 +365,13 @@ footer p {
   }
 
 @media screen and (max-width: 450px) {
-  .footer-container p{
+  .email {
     font-size: 1.6rem;
   }
+}
+
+.comment {
+  font-size: 1rem;
+  width: 90%;
+  margin: 0 auto;
 }

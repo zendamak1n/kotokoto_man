@@ -64,14 +64,14 @@ a:hover {
 
 .icon-box {
   background-color: #ffffff;
-  height:4.0rem;
-  width:4.0rem;
+  height:60px;
+  width:60px;
   margin:1rem 0;
   border-radius: 50%;
 }
 
 .fab, .fa{
-  font-size:3.0rem;
+  font-size:2.8rem;
   margin: 0.60rem 0;
 }
 
@@ -87,25 +87,31 @@ a:hover {
   color:#BE5378;
 }
 
+.fa-tiktok {
+  color:#393939;
+}
+
 .icon {
-  margin: 1rem 0;
+  margin: 16px 0;
 }
 
 .noto {
+  display: inline-block;
   background-image: url("../images/logo_symbol.png");
   background-size: contain;
-  font-size: 4.0rem;
-  height:4.0rem;
-  width:4.0rem;
+  font-size: 3.7rem;
+  height:60px;
+  width:60px;
   border-radius: 50%;
 }
 
 .twicas {
+  display: inline-block;
   background-image: url("../images/twicas.png");
   background-size: contain;
-  font-size: 4.0rem;
-  height:4.0rem;
-  width:4.0rem;
+  font-size: 3.7rem;
+  height:60px;
+  width:60px;
   border-radius: 50%;
 }
 
@@ -173,7 +179,7 @@ a:hover {
 ------------*/
 
 .contents {
-  background-color: #B5CDD9;
+  background-color: #C198C4;
   display:flex;
   flex-direction: row;
   justify-content: center;
@@ -355,13 +361,13 @@ a:hover {
 ------------*/
 
 .footer-container {
-  background: linear-gradient(to top, #C198C4 90%, #B5CDD9 100%);
+  background-color:#393939;
   padding-top: 5px;
 }
 
 footer p {
   line-height: 4.0rem;
-  color: #393939;
+  color: #e3e3e3;
   }
 
 @media screen and (max-width: 450px) {

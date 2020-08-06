@@ -279,6 +279,7 @@ a:hover {
   background-color: #DAB24F;
   padding: 3px;
   border-radius: 3px;
+  text-decoration:underline;/*下線を引く*/
 }
 
 @media screen and (max-width: 350px){

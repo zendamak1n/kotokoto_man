@@ -279,7 +279,7 @@ a:hover {
   background-color: #DAB24F;
   padding: 3px;
   border-radius: 3px;
-  text-decoration:underline;/*下線を引く*/
+  font-weight:bold;
 }
 
 @media screen and (max-width: 350px){
@@ -295,6 +295,7 @@ a:hover {
 
 .genre {
   color:#000000;
+  text-decoration:underline;/*下線を引く*/
 }
 
 .show {

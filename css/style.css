@@ -298,6 +298,12 @@ a:hover {
   text-decoration:underline;/*下線を引く*/
 }
 
+@media screen and (max-width: 400px){
+  .genre{
+      display:block;
+   }
+}
+
 .show {
   color:#393939;
 }

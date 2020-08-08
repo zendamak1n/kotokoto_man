@@ -318,10 +318,6 @@ a:hover {
   min-height: 550px;
 }
 
-@media screen and (min-width: 995px){
-  height:
-}
-
 .schedule {
   background-color: #85C7C9;
   border: solid 5px #3BA9AF;

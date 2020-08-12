@@ -177,9 +177,7 @@ a:hover {
 /*------------
 *contents area
 ------------*/
-.main {
-  padding-top:20px;
-}
+
 
 .contents {
   background-color: #C198C4;
@@ -187,6 +185,7 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  paddimg-top:20px;
 }
 
 .flex-item {

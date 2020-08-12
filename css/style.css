@@ -177,6 +177,9 @@ a:hover {
 /*------------
 *contents area
 ------------*/
+.main {
+  paddng-top:20px;
+}
 
 .contents {
   background-color: #C198C4;
@@ -187,7 +190,7 @@ a:hover {
 }
 
 .flex-item {
-  margin:20px 20px 40px;
+  margin:0 8px 40px;
   padding-bottom: 112px;
   flex-grow: 1;
   border-radius: 3px 3px 10px 10px;

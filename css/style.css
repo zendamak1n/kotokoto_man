@@ -234,7 +234,7 @@ li.etc,a {
   line-height: 1.4;
 }
 /* ------------PC display--------------------------- */
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 960px) {
   html {
     font-size: 75%;
   }

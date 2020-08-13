@@ -169,6 +169,7 @@ main {
 .googlebtn {
   height: 20px;
   border: solid 1px #3BA9AF;
+  vertical-align: middle;
 }
 .ibox {
   height: 550px;

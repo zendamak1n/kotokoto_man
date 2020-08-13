@@ -183,7 +183,6 @@ main {
   background-color: #DABBC5;
   border: solid 5px #BE5378;
   color: #503464;
-  padding-bottom: 40px;
 }
 .profile h2 {
   background-color: #BE5378;
@@ -211,6 +210,7 @@ main {
   background-color: #E0CF98;
   border: solid 2px #BE5378;
   padding: 10px 8px 0;
+  margin-bottom: 55px;
 }
 .career .item-title,.genre {
   color: #393939;

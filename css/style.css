@@ -6,8 +6,7 @@ html{
 }
 
 body{
-  font-feature-settings: "palt";
-	letter-spacing: 0.02rem;
+  letter-spacing: -0.02rem;
   font-size: 1.6rem;
   text-align: center;
   background-color: #B5CDD9;

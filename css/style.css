@@ -263,12 +263,14 @@ li.etc,a {
 .attention {
   margin: 10px auto 60px;
   padding: 0 auto;
+  max-width: 550px;
 }
 .tweet {
   height: auto;
-
   margin: 0 auto;
   max-width: 550px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .tweet-box {
   position: relative;
@@ -279,7 +281,7 @@ li.etc,a {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: 0;
   background-color: rgba(255, 0, 0, 0);
   box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
   border-radius: 14px;
@@ -344,20 +346,20 @@ li.etc,a {
   background-position: top center;
   background-repeat: repeat-x;/*X方向にリピート*/
 }
-.dot-under {
-  position: relative;
-  top: -6px;
-}
 .sentence {
   width: 100%;
   box-sizing: border-box;
-  padding:0 0.3em;
+  padding:0 0.3em 2em;
   background: #fbfbfb linear-gradient(var(--line-color) 1px, transparent 1px);
   background-size: auto 2em;
   background-position: top -4px right 0;
   line-height: 2em;
   overflow: hidden;
   text-align: left;
+}
+.fa-camera-retro {
+  line-height: 2em;
+  margin-right: 0.5em;
 }
 
 /* ------------PC display--------------------------- */
@@ -386,11 +388,9 @@ li.etc,a {
   }
   .attention{
     margin-right: 60px;
+    max-width: 1140px;
   }
-  .sentence {
-    padding-bottom: 5px;
-  }
-  
+
 
 }
 /*------------------*/

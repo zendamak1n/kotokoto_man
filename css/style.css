@@ -185,10 +185,26 @@ main {
   width: 100%;
   height: 100%;
 }
+.btn-attenton {
+  font-size: 2.2rem;
+  max-width: 550px;
+  width: 70%;
+  margin: 0 auto 55px;
+  line-height: 2em;
+  text-align: center;
+  background-color: #3BA9AF;
+  border-radius: 6px;
+}
+.btn-attenton>a {
+  color:#222222;
+}
+
+
+
 .profile {
   background-color: #DABBC5;
   border: solid 5px #BE5378;
-  color: #503464;
+  color: #393939;
 }
 .profile h2 {
   background-color: #BE5378;
@@ -206,7 +222,6 @@ main {
   line-height: 1.6;
 }
 .miss-id {
-  color: #503464;
   text-decoration: underline;
 }
 /*----------
@@ -239,6 +254,20 @@ li.etc,a {
   color:#e3e3e3;
   font-size: 1.0rem;
   line-height: 1.4;
+}
+
+.btn-back {
+  display: block;
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  top: 90px;
+  left: 4px;
+  background-color: rgba( 0, 0, 0, 0.5);
+  color: #e3e3e3;
+  line-height: 44px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 /*----------
@@ -390,7 +419,12 @@ li.etc,a {
     margin-right: 60px;
     max-width: 1140px;
   }
-
+  .btn-back {
+    left: 20px;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+  }
 
 }
 /*------------------*/

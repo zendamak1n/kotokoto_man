@@ -132,6 +132,12 @@ main {
   padding: 30px 8px 40px 8px;
   background-color: #C198C4;
 }
+.page-2{
+  background-image: radial-gradient(#eee 10%, transparent 20%), radial-gradient(#eee 10%, transparent 20%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  margin-top: 80px;
+}
 .item {
   border-radius: 3px 3px 15px 15px;
   margin-bottom: 40px;
@@ -234,6 +240,122 @@ li.etc,a {
   font-size: 1.0rem;
   line-height: 1.4;
 }
+
+/*----------
+*tokutenkai
+------------*/
+
+
+
+:root {
+  --line-color: #6CBAD8;/*←ノート内の線の色*/
+  /*-------------------------
+    おすすめ #6CBAD8 （青）
+            #ff5555 （赤）
+            #69914a （緑）
+            #777777 （グレー）
+  ---------------------------  */
+  --title-height: 36px;
+}
+/* -------
+* note
+--------- */
+.attention {
+  margin: 10px auto 60px;
+  padding: 0 auto;
+}
+.tweet {
+  position: relative;
+  margin: 0 auto;
+  max-width: 550px;
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(255, 0, 0, 0);
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+  border-radius: 14px;
+}
+.note {
+  background-color: #fbfbfb;
+  border: solid 1px #eeeeee;
+  padding: 32px 15px 40px 15px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+  max-width:960px;
+}
+/* line */
+.note-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.note-line_left {
+  display: block;
+  width: 45%;
+  height: auto;
+  border-bottom: solid 2px var(--line-color);
+  display: inline-block;
+}
+.note-line_right {
+  display:inline-block;
+  width: 30%;
+  font-size: 12px;
+  text-align: center;
+  color: var(--line-color);
+  line-height: 1.6;
+}
+.note-no {
+  display: block;
+  border-bottom: solid 2px var(--line-color);
+}
+.note-date {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 2px var(--line-color);
+}
+.note-title {
+  width: 100%;
+  height: var(--title-height);
+  border-top: solid 3px var(--line-color);
+  border-bottom: solid 3px var(--line-color);
+  font-size: 20px;
+  line-height: var(--title-height);
+}
+.note-title p {
+  margin-left: 0.5em;
+}
+.note p {
+  color: #060606;
+}
+.note-dotted {
+  /*1px × 2pxのドットで間隔が32pxの点線をtopに表示*/
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, var(--line-color), var(--line-color) 1px, transparent 1px, transparent 31px);
+  background-size: 32px 2px;/*31+1=32px , height=2px*/
+  background-position: top center;
+  background-repeat: repeat-x;/*X方向にリピート*/
+}
+.dot-under {
+  position: relative;
+  top: -6px;
+}
+.sentence {
+  width: 100%;
+  box-sizing: border-box;
+  padding:0 0.3em;
+  background: #fbfbfb linear-gradient(var(--line-color) 1px, transparent 1px);
+  background-size: auto 2em;
+  background-position: top -4px right 0;
+  line-height: 2em;
+  overflow: hidden;
+  text-align: left;
+}
+
 /* ------------PC display--------------------------- */
 @media screen and (min-width: 960px) {
   html {
@@ -258,5 +380,18 @@ li.etc,a {
   .item:first-of-type {
     margin-right:40px;
   }
+  .attention{
+    margin-right: 60px;
+  }
+  .sentence {
+    padding-bottom: 5px;
+  }
+  .cover {
+    top:10px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  }
+
 }
 /*------------------*/
